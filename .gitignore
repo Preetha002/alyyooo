@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 # Firebase config file
 src/firebase.js
+echo src/firebase.js >> .gitignore
+git add .gitignore
+git commit -m "Ignore firebase.js going forward"
